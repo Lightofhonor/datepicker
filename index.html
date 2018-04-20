@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control work</title>
+    <link href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#datepicker").datepicker();
+        });
+
+    </script>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="htitle"> CHANGE ACCOUNT INFORMATIONS</div>
+            <form class="eform" action="" method="post">
+                <div><label>Change Email</label></div>
+                <p>Current Email</p>
+                <span>felix@cyberelief.com</span>
+                <p>New Email
+                <input type="text" name="new email"></p>
+                <p>Confirm New Email
+                <input type="text" name="confirm email"></p>
+                <br>
+                <button type="submit"> Update Email</button>
+            </form>
+            <form class="pform" action="" method="post">
+                <div><label>Change Password</label></div>
+                <p>Old Password
+                <input type="text" name="old password"></p>
+                <p>New Password
+                <input type="text" name="new password"></p>
+                <p>Confirm New Password
+                <input type="text" name="confirm new password"></p>
+                <br>
+                <button type="submit"> Update password</button>
+            </form>
+        </div>
+        <div class="htitle"> BILLING INFORMATION/CONTACT INFORMATION </div>
+        <form class="bform" action="" method="post">
+            <div class="container">
+                <div class="leftpart">
+                    <p>First Name
+                    <input type="text" name="first name"></p>
+                    <p>Last Name
+                    <input type="text" name="last name"></p>
+                    <p>Street Adress
+                    <input type="text" name="street adress">
+                    <input type="text" name="street adress"></p>
+                    <p>Phone
+                    <input type="tel" name="phone"></p>
+                </div>
+                <div class="rightpart">
+                    <p>Last Name
+                    <input type="text" name="last name"></p>
+                    <p>Last name
+                    <input type="text" name="last name"></p>
+                    <p>City
+                    <input type="text" name="City"></p>
+                    <p>Country
+                    <select name="Country">
+                            <option selected=""></option>
+                            <option name="Ukraine" value="Ukraine">Ukraine</option>
+                            <option name="Russia" value="Russia">Russia</option>
+                            <option name="Belarus" value="Belarus">Belarus</option>
+                            <option name="USA" value="USA">USA</option>
+                            <option name="UK" value="UK">UK</option>
+                        </select></p>
+                    <p>State
+                    <select name="State">
+                            <option selected=""></option>
+                            <option name="Ukraine" value="Ukraine">Ukraine</option>
+                            <option name="Russia" value="Russia">Russia</option>
+                            <option name="Belarus" value="Belarus">Belarus</option>
+                            <option name="USA" value="USA">USA</option>
+                            <option name="UK" value="UK">UK</option>
+                        </select></p>
+                    <p>Zip code
+                    <input type="text" name="phone"></p>
+                </div>
+            </div>
+            <div class="htitle"> MEDICAL DETAILS </div>
+            <div class="container">
+                <div class="leftpart">
+                    <p>Doctors Name
+                    <input type="text" name="Doctors Name"></p>
+                    <p>Doctors Clinic Name
+                    <input type="text" name="Doctors Clinic Name"></p>
+                    <p>Street Adress
+                    <input type="text" name="Street Adress">
+                    <input type="text" name="Street Adress"></p>
+                    <p>State
+                    <select name="State">
+                            <option selected=""></option>
+                            <option name="Ukraine" value="Ukraine">Ukraine</option>
+                            <option name="Russia" value="Russia">Russia</option>
+                            <option name="Belarus" value="Belarus">Belarus</option>
+                            <option name="USA" value="USA">USA</option>
+                            <option name="UK" value="UK">UK</option>
+                        </select></p>
+                    <p>Verification Website
+                    <input type="text" name="Verification Website"></p>
+
+                    <p>Recommendation date <input type="text" id="datepicker"></p>
+                    <button class="register" type="submit"> REGISTER</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>

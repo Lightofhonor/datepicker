@@ -1,0 +1,145 @@
+* {
+    margin: none;
+    text-decoration: none;
+    padding: none;
+}
+body {
+    background: #e0efca;
+}
+section {
+    padding: 105px 10px 130px 60px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+}
+
+.htitle {
+    background: #423f30;
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    margin-top: 30px;
+
+}
+
+input {
+    width: 300px;
+    display: block;
+}
+
+label {
+    font-size: 18px;
+    font-style: italic;
+    color: 5a5a5a;
+}
+
+form p {
+    font-size: 13px;
+    color: 5a5a5a;
+    margin-top: 20px;
+}
+
+form button {
+    background: #ebc738;
+    font-size: 12px;
+    padding: 5px 16px;
+    color: white;
+    float: right;
+    margin-top: 24px;
+}
+
+form button:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.pform div {
+    margin-top: 50px;
+}
+
+.eform div {
+    margin-top: 50px;
+}
+
+.eform {
+    float: left;
+    max-width: 300px;
+    margin-right: 130px;
+}
+
+.eform span {
+    font-style: italic;
+    font-size: 12px;
+    color: a2a2a2;
+    margin-top: 20px;
+}
+
+.pform {
+    float: right;
+     max-width: 300px;
+    margin-right: 150px;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bform {
+    margin-top: 30px;
+}
+
+a.ui-state-default {
+    background-color: white !important;
+    border: none !important;
+}
+
+th {
+    background: #dddddd !important;
+}
+
+.ui-datepicker-header {
+    background: #a9ca44;
+    color: white;
+}
+
+.ui-state-hover:hover {
+    background: #a9ca44 !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    background-color: #dddddd!important;
+}
+.rightpart {
+    float:right;
+    margin-right: 150px;
+}
+.leftpart {
+    float:left;
+    margin-right: 130px;
+}
+.register {
+    background: #ebc738;
+    font-size: 18px;
+    padding: 11px 17px;
+    color: white;
+    float: left;
+    margin-top: 66px;
+}
+.register:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+select {
+    display:block;
+}
