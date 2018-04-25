@@ -1,11 +1,43 @@
+@font-face {
+    font-family: 'UbuntuB';
+    src: url('../fonts/UbuntuB.eot');
+    src: url('../fonts/UbuntuB.eot') format('embedded-opentype'),
+    url('../fonts/UbuntuB.woff2') format('woff2'),
+    url('../fonts/UbuntuB.woff') format('woff'),
+    url('../fonts/UbuntuB.ttf') format('truetype'),
+    url('../fonts/UbuntuB.svg#UbuntuB') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuBI';
+    src: url('../fonts/UbuntuBI.eot');
+    src: url('../fonts/UbuntuBI.eot') format('embedded-opentype'),
+    url('../fonts/UbuntuBI.woff2') format('woff2'),
+    url('../fonts/UbuntuBI.woff') format('woff'),
+    url('../fonts/UbuntuBI.ttf') format('truetype'),
+    url('../fonts/UbuntuBI.svg#UbuntuBI') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuM';
+    src: url('../fonts/UbuntuM.eot');
+    src: url('../fonts/UbuntuM.eot') format('embedded-opentype'),
+    url('../fonts/UbuntuM.woff2') format('woff2'),
+    url('../fonts/UbuntuM.woff') format('woff'),
+    url('../fonts/UbuntuM.ttf') format('truetype'),
+    url('../fonts/UbuntuM.svg#UbuntuM') format('svg');
+}
+
 * {
     margin: none;
     text-decoration: none;
     padding: none;
 }
+
 body {
     background: #e0efca;
 }
+
 section {
     padding: 105px 10px 130px 60px;
     max-width: 900px;
@@ -21,7 +53,7 @@ section {
     padding-bottom: 10px;
     padding-left: 8px;
     margin-top: 30px;
-
+    font-family: 'UbuntuB';
 }
 
 input {
@@ -31,7 +63,7 @@ input {
 
 label {
     font-size: 18px;
-    font-style: italic;
+    font-family: 'UbuntuBI';
     color: 5a5a5a;
 }
 
@@ -39,6 +71,7 @@ form p {
     font-size: 13px;
     color: 5a5a5a;
     margin-top: 20px;
+    font-family: 'UbuntuM'; 
 }
 
 form button {
@@ -71,15 +104,15 @@ form button:after {
 }
 
 .eform span {
-    font-style: italic;
     font-size: 12px;
     color: a2a2a2;
     margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .pform {
     float: right;
-     max-width: 300px;
+    max-width: 300px;
     margin-right: 150px;
 }
 
@@ -119,14 +152,17 @@ a.ui-button:active,
 .ui-button.ui-state-active:hover {
     background-color: #dddddd!important;
 }
+
 .rightpart {
-    float:right;
+    float: right;
     margin-right: 150px;
 }
+
 .leftpart {
-    float:left;
+    float: left;
     margin-right: 130px;
 }
+
 .register {
     background: #ebc738;
     font-size: 18px;
@@ -135,11 +171,13 @@ a.ui-button:active,
     float: left;
     margin-top: 66px;
 }
-.register:after{
+
+.register:after {
     content: "";
     display: block;
     clear: both;
 }
+
 select {
-    display:block;
+    display: block;
 }
